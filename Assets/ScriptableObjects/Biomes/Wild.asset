@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561f62ed076c6914a863560d0f59a942, type: 3}
+  m_Name: Wild
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeData
+  biomeType: 0
+  biomeName: 
+  backgroundColour: {r: 0.78431374, g: 0.58431375, b: 0.2901961, a: 1}
+  wallColour: {r: 0.54509807, g: 0.4117647, b: 0.078431375, a: 1}
+  floorColour: {r: 0.6509804, g: 0.4862745, b: 0.23137255, a: 1}
+  exitColour: {r: 0, g: 1, b: 0.53333336, a: 1}
+  minRoomWidth: 20
+  maxRoomWidth: 40
+  minRoomHeight: 15
+  maxRoomHeight: 30
+  organicness: 0.5
+  verticalVariation: 0.5
+  minPlatforms: 2
+  maxPlatforms: 6
+  combatWeight: 40
+  treasureWeight: 20
+  puzzleWeight: 15
+  secretWeight: 10
+  bossWeight: 10
+  shortcutWeight: 5
+  baseBossChance: 0.05
+  bossChanceIncrement: 0.03
